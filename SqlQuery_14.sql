@@ -1,0 +1,2 @@
+﻿ALTER TABLE Emp
+DROP COLUMN Dep_ID;

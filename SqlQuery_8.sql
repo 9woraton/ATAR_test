@@ -1,0 +1,3 @@
+﻿UPDATE LKPROVINCE
+SET UpdateDate = GETDATE() 
+WHERE PROVINCE_NAME = 'กรุงเทพมหานคร'

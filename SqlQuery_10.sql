@@ -1,0 +1,6 @@
+﻿select 
+	MS_CUS_ID
+	,CUS_NAME
+	,PROVINCE_NAME
+from MS_CUSTOMER m 
+join LKPROVINCE l on m.PROVINCE_ID = l.PROVINCE_ID
